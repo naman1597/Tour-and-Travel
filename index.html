@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tour and travel</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>dicover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/p-1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                <p>Choosing Mumbai as a travel destination is somehow quite obvious. The local Mumbadevi deity inspired the city's new name earlier called Bombay. Portuguese, British, Maratha, influences have shaped the architecture, demography, culture and creation. With such an admixture of colonial style structures, Soviet fashioned offices, Dutch roofing, German gable, Romanesque arches and Tudor casements Mumbai's architecture is rich in variety and substance. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> 20,000 INR <span>50,000 INR</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                <p>Adventures on the Garden Isle never end with the abundance of things to do on Kauai! Discover our lush, green Hawaiian Island by air, land, or water or immerse yourself in our culture by attending a luau. Whether you choose to explore the island on a thrilling ATV ride or swimming under a waterfall and reconnecting with nature, we promise that you’ll never forget your enchanting Kauai vacation and the activities you enjoyed here. Hawaii Adventure Center offers Kauai tours near Waimea, Princeville, Hanalei, Kilauea, Lihue, and Koloa!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> 70,000 INR <span>1,20,000 INR</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-3.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+                <p>Surrounded by open parkland, Adelaide is recognised as one of the world’s most liveable cities. This charming city has an enviable reputation for exceptional cuisine, extraordinary wildlife and whimsical festivals. During “Mad March”, events include the Fringe Festival, Adelaide Cup, WOMAdelaide, Superloop 500, and many more.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> 1,00,000 INR <span>1,50,000 INR</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-4.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                <p>Paris offers something for everyone. It boasts rich culture and art, both in museums and galleries as well as on streets and in theatres. Get captivated by rich palaces and romantic gardens. Explore the wide avenues and narrow cobbled streets where a new gem waits for travellers around every corner. While sightseeing, don’t forget to enjoy life or, as the French would say: Joie de vivre.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> 1,50,000 INR <span>2,00,000 INR</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-5.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                <p>Tokyo offers a seemingly unlimited choice of shopping, entertainment, culture and dining to its visitors. The city's history can be appreciated in districts such as Asakusa and in many excellent museums, historic temples and gardens. Contrary to common perception, Tokyo also offers a number of attractive green spaces in the city center and within relatively short train rides at its outskirts.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> 1,25,000 INR <span>1,90,000 INR</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-6.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> egypt </h3>
+                <p>Even though the temperatures in Egypt are usually high, summer is the worst in comparison to other seasons. Summer months can be exceptionally hot. So, make sure you carry plenty of sunscreens, your shades, and water bottles. There is little to no rainfall during this time. Hence the weather can be quite harsh and dry.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> 2,10,000 INR <span>2,95,000 INR</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>The rooms were clean, very comfortable, and the staff was amazing. They went over and beyond to help make our stay enjoyable. I highly recommend this hotel for anyone visiting downtown .</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>I went for an event where Indian banquet food was served. it was fantastic-some of the dishes were the best one had for a long time in a banquet. Service was very good too- like in the restaurant. Very elegant.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>The Community is full of amazing people, places, opportunities, and resources. To get the most out of community life, we all need to know how to be our best and how to stay safe.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>So far, this tour is the important tour of my life. The timing is great. The price is fantastic. Therefore, i have invited several other friends to join irma and i on our first adventure with smarTours.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>The metro railway is very convinient and is the fastest and cheapest way to travel long distance. If you are planning to stay for a long period of time with a large group of people, metro railway is the best as it will save you a lot on the travel expenses.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Being a soft-adventure sport, almost anyone in reasonable physical condition can go hiking. To get initiated into hiking begin with day hikes, returning to your starting point in the evening.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic1.png" alt="">
+                    <h3>Anchal Singh</h3>
+                    <p>We stayed in four different hotels and a glam-camp, in southern Sri Lanka, Despite the country's current problems we were made very welcome and saw amazing places and wildlife.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic2.png" alt="">
+                    <h3>Aman Singh</h3>
+                    <p>We spent 14 days in the Maldives at two resorts, Lily Beach and Baros Amazing holiday - the most relaxing and enjoyable that I have ever had.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic3.png" alt="">
+                    <h3>Soni Rathore</h3>
+                    <p>We completed a fourteen day guided tour of beautiful Sri Lanka, taking in the Cultural Triangle, the tea plantations, safari and The Galle Coast. Throughout the tour we experienced time with the locals enjoying their delicious food and exceptional hospitality.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic4.png" alt="">
+                    <h3>Muffasir Hussen</h3>
+                    <p>Just over 2 weeks in Sri Lanka and then 4 days in the Maldives. We had an amazing time. Sri Lanka is a beautiful country with stunning scenery, very friendly people and delicious food. We had a good mix of culture, trekking and cycling, safari and beach R&R.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>A team which has the confidence and the expertise to handle the most complex and challenging tasks they are faced with. Our rich experience helps us to understand your needs and give you a product that suits your requirement. Our linkages in the travel domain ensure that we provide our travelers and corporate clients with the best deals.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Naman Singh </span> | all rights reserved! </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="JS/script.js"></script>
+
+</body>
+</html>
